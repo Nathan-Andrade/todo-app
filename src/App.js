@@ -13,8 +13,8 @@ function App() {
 
   // quando o app carregar, ouvirá o database
   useEffect(() => {
-    db.collection('todos').onSnapshot(snapshot => {
-      setTodos(snapshot.docs.map(doc => doc.data().todo))
+    db.collection('todos').orderBy('timestamp', 'desc').onSnapshot(snapshot => {
+      setTodos(snapshot.docs.map(doc => ( {id: doc.id ,todo: doc.data().todo})))
     })
   }, []);
 
@@ -29,13 +29,14 @@ function App() {
       timestamp: firebase.firestore.FieldValue.serverTimestamp()
     })
 
-    setTodos([...todos, input]);
+    //setTodos([...todos, input]);
     setInput(''); //limpa o campo assim que clica no botão
   })
 
   return (
     <div className="App">
-      <h1>Creating a TODO App!</h1>
+      <h1>Write your TODO !</h1>
+
       <form>
         <FormControl>
           <InputLabel>Write a TODO</InputLabel>
@@ -48,7 +49,7 @@ function App() {
 
       <ul>
         {todos.map(todo => (
-          <Todo text={todo} />
+          <Todo todo={todo} />
         ))}
       </ul>
     </div>
