@@ -11,7 +11,7 @@
 
 ## :computer: Projeto
 
- TO DO Clone é um projeto desenvolvido para listarmos tarefas que executaremos em nosso dia a dia. E foi criado para fins estudantis para criar uma base sólida abordando a tecnologia React.js para o frontend(ou seja o cliente), com Firebase(que é serve para o banco de dados).
+ TO DO Clone é um projeto desenvolvido que permite ao usuário criar listas de tarefas para organizar o seu dia ou semana de forma simples e rápida. E foi criado para fins estudantis para criar uma base sólida abordando a tecnologia React.js para o frontend(ou seja o cliente), com Firebase(que é serve para o banco de dados).
 
  <p align="center">
   <img src="https://github.com/Nathan-Andrade/todo-app/blob/master/github/gifWeb.gif?raw=true" >
