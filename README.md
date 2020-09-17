@@ -1,75 +1,67 @@
-## Tecnologias / Bibliotecas
-- Styled-components
-- Material-Ui
-- Material-UI/icons
-- Material-UI/core/styles
-- Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">
+    TO DO Clone :rocket:
+</h1>
 
-In the project directory, you can run:
+![](https://img.shields.io/github/languages/count/Nathan-Andrade/todo-app?color=%23f5f5f5) ![](https://img.shields.io/github/languages/top/Nathan-Andrade/todo-app?color=%23f5f5f5) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/todo-app?color=%23f5f5f5) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/todo-app?color=%23f5f5f5)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## :computer: Projeto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ TO DO Clone é um projeto desenvolvido para listarmos tarefas que executaremos em nosso dia a dia. E foi criado para fins estudantis para criar uma base sólida abordando a tecnologia React.js para o frontend(ou seja o cliente), com Firebase(que é serve para o banco de dados).
 
-### `yarn build`
+ <p align="center">
+  <img src="https://github.com/Nathan-Andrade/todo-app/blob/master/github/gifWeb.gif?raw=true" >
+  <h2>Gif web Responsivo</h2>
+  <img src="https://github.com/Nathan-Andrade/todo-app/blob/master/github/gifWebResponsive.gif?raw=true" >
+</p>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## :airplane: Tecnologias e Bibliotecas
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Web</summary>
 
-### `yarn eject`
+-   [React](https://pt-br.reactjs.org/)
+-   [Styled Components](https://styled-components.com/)
+-   [Material-UI](https://material-ui.com/pt/)
+- [Material-UI/icons](https://material-ui.com/pt/components/icons/#icons)
+- [Material-UI/core/styles](https://material-ui.com/pt/styles/basics/#material-ui-core-styles/)
+- [Material-UI/modal](https://material-ui.com/pt/components/modal/)
+- [Firebase](https://firebase.google.com/)
+-   [VS Code](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :information_source: Como rodar a aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Requerimentos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para rodar esta aplicação você vai precisar ter instalado:
+* [Git](https://git-scm.com)
+* [Node](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/) 
 
-## Learn More
+Agora clone este repositório e instale todas as dependências.
+```bash
+#Para clonar este repositório
+$ git clone https://github.com/Nathan-Andrade/todo-app.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Vá para a pasta do servidor
+$ cd todo-app-master
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Instale todas as dependências
+$ yarn  install
 
-### Code Splitting
+#Para rodar o server
+$ yarn start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Desenvolvido com ❤️ por <a href="https://www.linkedin.com/in/nathan-a-1b9436124/">Nathan de Andrade</a>.
