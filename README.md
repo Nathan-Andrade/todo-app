@@ -2,6 +2,7 @@
 - Styled-components
 - Material-Ui
 - Material-UI/icons
+- Material-UI/core/styles
 - Firebase
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
